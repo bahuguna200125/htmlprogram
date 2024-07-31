@@ -1,7 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f8;
-}
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f8;
+        /* 
+        background-image: url("am.jpg");
+        background-size: cover;
+        background-position: center; */
+    }
+    
 
 h1 {
     color: #020202;
@@ -37,7 +43,15 @@ h1 {
 p {
     color: #31091d;
     text-align: center;
+    border: 1px solid #020202;
+    width: fit-content;
 }
+
+/* #ab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 table {
     width: 100%;
@@ -90,4 +104,56 @@ button {
     padding: 5px 10px;
     margin-top: 20px;
 }
+.row:hover{
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    position: relative;
+    top: 10px;
+    left: 22px;
+}
+.item{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.item1:hover {
+    visibility: hidden;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    text-align: center;
+    width:fit-content ;
+    margin-left: 620px;
+    padding: 5px;
+  border-radius: 5px;
 
+}
+.fade {
+    margin-top: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+.ba{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:500px ;
+    height: 500px ;
+    margin-top: 30px;
+    text-align: center;
+  border-radius: 5px;
+  background-image: url('ab.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

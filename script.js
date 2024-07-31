@@ -7,43 +7,43 @@
 //             console.log('Div clicked!');
 //             var myDiv = document.getElementById('myDiv');
 //             myDiv.style.backgroundColor = 'lightgreen';
-const row1 = document.getElementById('row1');
-row1.addEventListener('mouseover',function(event) {
-console.log('row clicked!');
-            // var row1byamit = document.getElementById('row1');
-            event.currentTarget.style.backgroundColor = 'lightgrey';
-})
-                row1.addEventListener('mouseout',function(event) {
-                console.log('row clicked!');
-                            // var row1byamit = document.getElementById('row1');
-                            event.currentTarget.style.backgroundColor = 'white';
+// const row1 = document.getElementById('row1');
+// row1.addEventListener('mouseover',function(event) {
+// console.log('row clicked!');
+//             // var row1byamit = document.getElementById('row1');
+//             event.currentTarget.style.backgroundColor = 'lightgrey';
+// })
+//                 row1.addEventListener('mouseout',function(event) {
+//                 console.log('row clicked!');
+//                             // var row1byamit = document.getElementById('row1');
+//                             event.currentTarget.style.backgroundColor = 'white';
                                
       
-        });
-        const row2 = document.getElementById('row2');
-        row2.addEventListener('mouseover',function(event) {
-        console.log('row clicked!');
-                    // var row2byamit = document.getElementById('row2');
-                    event.currentTarget.style.backgroundColor = 'lightgrey';
-        });
-        row2.addEventListener('mouseout',function(event) {
-            console.log('row clicked!');
-                        // var row2byamit = document.getElementById('row2');
-                        event.currentTarget.style.backgroundColor = 'white';
-            });
-        const row3 = document.getElementById('row3');
-        row3.addEventListener('mouseover',function(event) {
-        console.log('row clicked!');
-                    // var row3byamit = document.getElementById('row3');
-                    event.currentTarget.style.backgroundColor = 'lightgrey';
-        })
+//         });
+//         const row2 = document.getElementById('row2');
+//         row2.addEventListener('mouseover',function(event) {
+//         console.log('row clicked!');
+//                     // var row2byamit = document.getElementById('row2');
+//                     event.currentTarget.style.backgroundColor = 'lightgrey';
+//         });
+//         row2.addEventListener('mouseout',function(event) {
+//             console.log('row clicked!');
+//                         // var row2byamit = document.getElementById('row2');
+//                         event.currentTarget.style.backgroundColor = 'white';
+//             });
+//         const row3 = document.getElementById('row3');
+//         row3.addEventListener('mouseover',function(event) {
+//         console.log('row clicked!');
+//                     // var row3byamit = document.getElementById('row3');
+//                     event.currentTarget.style.backgroundColor = 'lightgrey';
+//         })
 
 
-        row3.addEventListener('mouseout',function(event) {
-            console.log('row3 mouseout!');
-                        // var row3byamit = document.getElementById('row3');
-                        event.currentTarget.style.backgroundColor = 'white';
-            });
+//         row3.addEventListener('mouseout',function(event) {
+//             console.log('row3 mouseout!');
+//                         // var row3byamit = document.getElementById('row3');
+//                         event.currentTarget.style.backgroundColor = 'white';
+//             });
 
 
             // const div1 = document.getElementById('div1');
